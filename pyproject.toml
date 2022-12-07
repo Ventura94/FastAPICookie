@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi_security_cookie"
+version = "0.1.1"
+description = "Simple security cookie for FastAPI"
+authors = ["Arian Ventura Rodríguez <arianventura94@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.88.0"
+itsdangerous = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
